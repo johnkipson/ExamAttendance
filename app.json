@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Exam Attendance",
+    "slug": "exam-attendance",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#faf7f2",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#faf7f2"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.examattendance.app"
+    },
+    "android": {
+      "package": "com.examattendance.app",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "backgroundColor": "#8a5a3b",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "softwareKeyboardLayoutMode": "resize",
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "@react-native-community/datetimepicker"
+    ]
+  }
+}
